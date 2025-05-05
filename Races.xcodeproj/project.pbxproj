@@ -6,17 +6,44 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		12F67E7E2DC65A7A00FDA5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F67E7A2DC65A7A00FDA5D4 /* Assets.xcassets */; };
+		12F67E7F2DC65A7A00FDA5D4 /* RaceHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E782DC65A7A00FDA5D4 /* RaceHistory.swift */; };
+		12F67E812DC65A7A00FDA5D4 /* RacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E7C2DC65A7A00FDA5D4 /* RacesApp.swift */; };
+		12F67E872DC65AD000FDA5D4 /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E862DC65AD000FDA5D4 /* Horse.swift */; };
+		12F67E892DC65B1400FDA5D4 /* RaceHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E882DC65B1400FDA5D4 /* RaceHistoryManager.swift */; };
+		12F67E8B2DC65B5100FDA5D4 /* RaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E8A2DC65B5100FDA5D4 /* RaceViewModel.swift */; };
+		12F67E8D2DC65B9E00FDA5D4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E8C2DC65B9E00FDA5D4 /* MainView.swift */; };
+		12F67E8F2DC65BDB00FDA5D4 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E8E2DC65BDB00FDA5D4 /* HistoryView.swift */; };
+		12F67E922DC65C2700FDA5D4 /* RaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E912DC65C2700FDA5D4 /* RaceView.swift */; };
+		12F67E942DC65CBD00FDA5D4 /* HorseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67E932DC65CBD00FDA5D4 /* HorseView.swift */; };
+		12F67EB92DC77AD200FDA5D4 /* ResultsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67EB82DC77AD200FDA5D4 /* ResultsRowView.swift */; };
+		12F67EBC2DC780CC00FDA5D4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67EBB2DC780CC00FDA5D4 /* Color.swift */; };
+		12F67ECA2DC78C4D00FDA5D4 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67EC92DC78C4400FDA5D4 /* NotificationManager.swift */; };
+		12F67ECC2DC8A3E300FDA5D4 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67ECB2DC8A3E300FDA5D4 /* TrackView.swift */; };
+		12F67ED02DC8A4E500FDA5D4 /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67ECF2DC8A4E500FDA5D4 /* WinnerView.swift */; };
+		12F67ED22DC8A54000FDA5D4 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67ED12DC8A54000FDA5D4 /* StartButton.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		12F67E672DC65A3600FDA5D4 /* Races.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Races.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F67E782DC65A7A00FDA5D4 /* RaceHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceHistory.swift; sourceTree = "<group>"; };
+		12F67E7A2DC65A7A00FDA5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12F67E7C2DC65A7A00FDA5D4 /* RacesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacesApp.swift; sourceTree = "<group>"; };
+		12F67E862DC65AD000FDA5D4 /* Horse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
+		12F67E882DC65B1400FDA5D4 /* RaceHistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceHistoryManager.swift; sourceTree = "<group>"; };
+		12F67E8A2DC65B5100FDA5D4 /* RaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewModel.swift; sourceTree = "<group>"; };
+		12F67E8C2DC65B9E00FDA5D4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		12F67E8E2DC65BDB00FDA5D4 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		12F67E912DC65C2700FDA5D4 /* RaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceView.swift; sourceTree = "<group>"; };
+		12F67E932DC65CBD00FDA5D4 /* HorseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseView.swift; sourceTree = "<group>"; };
+		12F67EB82DC77AD200FDA5D4 /* ResultsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsRowView.swift; sourceTree = "<group>"; };
+		12F67EBB2DC780CC00FDA5D4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		12F67EC92DC78C4400FDA5D4 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		12F67ECB2DC8A3E300FDA5D4 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		12F67ECF2DC8A4E500FDA5D4 /* WinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
+		12F67ED12DC8A54000FDA5D4 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		12F67E692DC65A3600FDA5D4 /* Races */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Races;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		12F67E642DC65A3600FDA5D4 /* Frameworks */ = {
@@ -32,7 +59,7 @@
 		12F67E5E2DC65A3600FDA5D4 = {
 			isa = PBXGroup;
 			children = (
-				12F67E692DC65A3600FDA5D4 /* Races */,
+				12F67E7D2DC65A7A00FDA5D4 /* Races */,
 				12F67E682DC65A3600FDA5D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +70,85 @@
 				12F67E672DC65A3600FDA5D4 /* Races.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		12F67E792DC65A7A00FDA5D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12F67E862DC65AD000FDA5D4 /* Horse.swift */,
+				12F67E782DC65A7A00FDA5D4 /* RaceHistory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12F67E7D2DC65A7A00FDA5D4 /* Races */ = {
+			isa = PBXGroup;
+			children = (
+				12F67E7C2DC65A7A00FDA5D4 /* RacesApp.swift */,
+				12F67E7A2DC65A7A00FDA5D4 /* Assets.xcassets */,
+				12F67EBA2DC780C000FDA5D4 /* Extensions */,
+				12F67EC82DC7875D00FDA5D4 /* Services */,
+				12F67E792DC65A7A00FDA5D4 /* Model */,
+				12F67E852DC65A8600FDA5D4 /* ViewModel */,
+				12F67E832DC65A8200FDA5D4 /* View */,
+			);
+			path = Races;
+			sourceTree = "<group>";
+		};
+		12F67E832DC65A8200FDA5D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12F67E8C2DC65B9E00FDA5D4 /* MainView.swift */,
+				12F67E902DC65C0E00FDA5D4 /* RaceView */,
+				12F67EB72DC77AAE00FDA5D4 /* HistoryView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12F67E852DC65A8600FDA5D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				12F67E8A2DC65B5100FDA5D4 /* RaceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		12F67E902DC65C0E00FDA5D4 /* RaceView */ = {
+			isa = PBXGroup;
+			children = (
+				12F67E912DC65C2700FDA5D4 /* RaceView.swift */,
+				12F67ECB2DC8A3E300FDA5D4 /* TrackView.swift */,
+				12F67E932DC65CBD00FDA5D4 /* HorseView.swift */,
+				12F67ECF2DC8A4E500FDA5D4 /* WinnerView.swift */,
+				12F67ED12DC8A54000FDA5D4 /* StartButton.swift */,
+			);
+			path = RaceView;
+			sourceTree = "<group>";
+		};
+		12F67EB72DC77AAE00FDA5D4 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				12F67E8E2DC65BDB00FDA5D4 /* HistoryView.swift */,
+				12F67EB82DC77AD200FDA5D4 /* ResultsRowView.swift */,
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		12F67EBA2DC780C000FDA5D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12F67EBB2DC780CC00FDA5D4 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12F67EC82DC7875D00FDA5D4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12F67EC92DC78C4400FDA5D4 /* NotificationManager.swift */,
+				12F67E882DC65B1400FDA5D4 /* RaceHistoryManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +165,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				12F67E692DC65A3600FDA5D4 /* Races */,
 			);
 			name = Races;
 			packageProductDependencies = (
@@ -109,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F67E7E2DC65A7A00FDA5D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +223,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F67E7F2DC65A7A00FDA5D4 /* RaceHistory.swift in Sources */,
+				12F67ED02DC8A4E500FDA5D4 /* WinnerView.swift in Sources */,
+				12F67E8F2DC65BDB00FDA5D4 /* HistoryView.swift in Sources */,
+				12F67ECC2DC8A3E300FDA5D4 /* TrackView.swift in Sources */,
+				12F67E8D2DC65B9E00FDA5D4 /* MainView.swift in Sources */,
+				12F67E812DC65A7A00FDA5D4 /* RacesApp.swift in Sources */,
+				12F67E872DC65AD000FDA5D4 /* Horse.swift in Sources */,
+				12F67EB92DC77AD200FDA5D4 /* ResultsRowView.swift in Sources */,
+				12F67ECA2DC78C4D00FDA5D4 /* NotificationManager.swift in Sources */,
+				12F67E892DC65B1400FDA5D4 /* RaceHistoryManager.swift in Sources */,
+				12F67E942DC65CBD00FDA5D4 /* HorseView.swift in Sources */,
+				12F67E922DC65C2700FDA5D4 /* RaceView.swift in Sources */,
+				12F67ED22DC8A54000FDA5D4 /* StartButton.swift in Sources */,
+				12F67EBC2DC780CC00FDA5D4 /* Color.swift in Sources */,
+				12F67E8B2DC65B5100FDA5D4 /* RaceViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -234,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -258,6 +377,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -285,6 +405,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
