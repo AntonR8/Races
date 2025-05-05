@@ -23,6 +23,7 @@
 		12F67ECC2DC8A3E300FDA5D4 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67ECB2DC8A3E300FDA5D4 /* TrackView.swift */; };
 		12F67ED02DC8A4E500FDA5D4 /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67ECF2DC8A4E500FDA5D4 /* WinnerView.swift */; };
 		12F67ED22DC8A54000FDA5D4 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67ED12DC8A54000FDA5D4 /* StartButton.swift */; };
+		12F67ED42DC8AA9100FDA5D4 /* HorseAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F67ED32DC8AA9100FDA5D4 /* HorseAvatar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		12F67ECB2DC8A3E300FDA5D4 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
 		12F67ECF2DC8A4E500FDA5D4 /* WinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
 		12F67ED12DC8A54000FDA5D4 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		12F67ED32DC8AA9100FDA5D4 /* HorseAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseAvatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				12F67E8E2DC65BDB00FDA5D4 /* HistoryView.swift */,
 				12F67EB82DC77AD200FDA5D4 /* ResultsRowView.swift */,
+				12F67ED32DC8AA9100FDA5D4 /* HorseAvatar.swift */,
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				12F67E892DC65B1400FDA5D4 /* RaceHistoryManager.swift in Sources */,
 				12F67E942DC65CBD00FDA5D4 /* HorseView.swift in Sources */,
 				12F67E922DC65C2700FDA5D4 /* RaceView.swift in Sources */,
+				12F67ED42DC8AA9100FDA5D4 /* HorseAvatar.swift in Sources */,
 				12F67ED22DC8A54000FDA5D4 /* StartButton.swift in Sources */,
 				12F67EBC2DC780CC00FDA5D4 /* Color.swift in Sources */,
 				12F67E8B2DC65B5100FDA5D4 /* RaceViewModel.swift in Sources */,

@@ -15,17 +15,21 @@ struct RaceView: View {
     
     var body: some View {
         NavigationStack {
-            TrackView(horses: viewModel.horses)
-            Spacer()
-            if let winner = viewModel.winner {
-                WinnerView(winner: winner)
+            VStack {
+                TrackView(horses: viewModel.horses)
+                Spacer()
+                if let winner = viewModel.winner {
+                    WinnerView(winner: winner)
+                }
+                Spacer()
+                StartButton(viewModel: viewModel)
             }
-            Spacer()
-            StartButton(viewModel: viewModel)
-        }
-        .padding()
-        .onAppear {
-            notificationManager.requestNotificationPermission()
+            .navigationTitle("Лошадиные Скачки")
+            .navigationBarTitleDisplayMode(.inline)
+            .padding()
+            .onAppear {
+                notificationManager.requestNotificationPermission()
+            }
         }
     }
 }

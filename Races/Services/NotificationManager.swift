@@ -8,8 +8,6 @@
 import UserNotifications
 
 
-
-
 class NotificationManager {
     static let shared = NotificationManager()
     private init() {}

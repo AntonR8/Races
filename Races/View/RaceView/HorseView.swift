@@ -16,7 +16,7 @@ struct HorseView: View {
                 .font(.largeTitle)
                 .scaleEffect(x: -1, y: 1)
             Text(horse.name)
-            Gauge(value: Double(horse.position), in: 0...1000) { }
+            Gauge(value: Double(horse.position), in: 0...1001) { }
                 .tint(horse.color)
                 Text("🏆")
                     .font(.largeTitle)

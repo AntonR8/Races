@@ -53,13 +53,23 @@ class RaceViewModel {
             for index in 0..<horses.count {
                 await MainActor.run {
                     withAnimation(.smooth) {
-                        horses[index].position += Int.random(in: 0...100)
+                        updateHorsePosition(index: index)
                     }
                 }
                 if horses[index].position >= 1000 {
                     return
                 }
             }
+        }
+    }
+    
+    
+    private func updateHorsePosition(index: Int) {
+        let incrementer = Int.random(in: 0...100)
+        if horses[index].position + incrementer < 1000 {
+            horses[index].position += incrementer
+        } else {
+            horses[index].position = 1000
         }
     }
     

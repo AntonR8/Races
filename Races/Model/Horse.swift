@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct Horse: Identifiable, Codable {
-    let id = UUID()
+    var id = UUID()
     let name: String
     let color: Color
     var position: Int = 0

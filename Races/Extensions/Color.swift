@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 extension Color: Codable {
     enum CodingKeys: String, CodingKey {
         case red, green, blue, alpha

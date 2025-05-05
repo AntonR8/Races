@@ -19,8 +19,6 @@ struct TrackView: View {
         .padding()
         .background(Color.gray.opacity(0.2))
         .cornerRadius(25)
-        .navigationTitle("Лошадиные Скачки")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

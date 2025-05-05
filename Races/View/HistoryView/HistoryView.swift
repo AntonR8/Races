@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HistoryView: View {
-   @State var historyManager = RaceHistoryManager.shared
+   @State private var historyManager = RaceHistoryManager.shared
         
         var body: some View {
             NavigationStack {
